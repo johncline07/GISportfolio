@@ -51,9 +51,10 @@
 
     <div class="bg-image d-flex justify-content-center align-items-center">
         <h1 class="heading text-bg-dark">Portfolio</h1>
+
     </div>
 
-       <div class="category">
+    <div class="category">
         <h2>Web Applications built using Geospatial APIs.</h2>
         <ul>
             <iframe width="1000px" height="1000px" src="https://johncline07.github.io/guilfordcountyschools/"></iframe>
@@ -66,9 +67,11 @@
     </div>
     <div class="category">
         <ul>
-            <iframe width="1000px" height="1000px" src="https://jclinegeog863.000webhostapp.com/Lesson6/index.html"></iframe>
-            <li><a href="https://jclinegeog863.000webhostapp.com/Lesson6/index.html">Natural Gas Interstate and
-                    Intrastate Pipelines</a></li>
+            <iframe width="1000px" height="1000px" src="https://jclinegeog863.000webhostapp.com/Lesson6/index.html"><a
+                    href="https://jclinegeog863.000webhostapp.com/Lesson6/index.html">Natural Gas Interstate and
+                    Intrastate Pipelines</a></iframe>
+        </ul>
+        <ul>
             <li>Application built using ArcGIS Javascipt API displaying a natural gas pipeline service host by
                 ArcGIS
                 Online sampleserver.</li>
@@ -78,6 +81,29 @@
             <li>I futhuered my experience in initializing a web map, displaying hosted features or services, and
                 setting
                 the center and zoom for a web application.</li>
+        </ul>
+    </div>
+    <div class="category">
+        <ul>
+            <iframe width="1000px" height="1000px" src="https://johncline07.github.io/2020election/"><a
+                    href="https://johncline07.github.io/2020election/">2020 Election Results via AGOL feature service
+                    and
+                    ArcGIS API for JS</a></iframe>
+
+        </ul>
+        <ul>
+            <li>Application built using ArcGIS Javascipt API displaying the 2020 Presidential election results based on
+                counties.</li>
+            <li>In this exercise, I learned to implement GUI in my web applications such as a search widget.</li>
+            <li>I used the GraphicsLayer to create a selected counties layer which displayes the searched set of
+                counties with a yellow outline.</li>
+            <li>The search widget sets up a user search which queries the feature service for based on the "ST" field
+                for the state which that county is within.</li>
+            <li>The query counties function is called when the user performs a search and constructs a SQL WHERE clause
+                based on user input.</li>
+            <li>When a user performs a search, the camera is adjusted to focus on the selected counties by setting the
+                'view.goTo' target to the combined extent, ensuring the map's view is centered and zoomed in to display
+                all selected counties [this part needs work].</li>
         </ul>
     </div>
     <div class="category">
